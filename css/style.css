@@ -43,6 +43,48 @@ h1{
     font-size: 20px;
 }
 
+#article{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .evidenziato{
     background-color: yellow;
 }
+
+/* section table - title*/
+#title-table{
+    width: 100%;
+    background-color: #20A9E5;
+}
+
+#title-sx, #title-center{
+    width: 24%;
+}
+
+#title-dx{
+    width: 50%;
+}
+
+#title-sx, #title-center, #title-dx{
+    display: inline-block;
+    color: #f0f0f0;
+    font-weight: bold;
+}
+
+/* section table - row */
+.lightblue-row{
+    width: 100%;
+    background-color: #B1E5F2;
+}
+
+.row-sx, .row-center{
+    width: 24%;
+    display: inline-block
+}
+
+.row-dx{
+    width: 50%;
+    display: inline-block
+}
+
