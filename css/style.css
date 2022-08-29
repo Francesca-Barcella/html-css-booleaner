@@ -87,3 +87,21 @@ h1{
     width: 50%;
     display: inline-block
 }
+
+/* section interest*/
+#interest>h3{
+    color: #989898;
+}
+
+#foto-top, #foto-bottom{
+    color: #f0f0f0;
+    font-weight: bold;
+}
+
+#foto-top{
+   background-image: url(../img/monitor.jpg);
+}
+
+#foto-bottom{
+    background-image: url(../img/graph.jpg);
+}
