@@ -96,6 +96,11 @@ h1{
 #foto-top, #foto-bottom{
     color: #f0f0f0;
     font-weight: bold;
+    font-size: 20px;
+    background-size: cover;
+    width: 310px;
+    height: 210px;
+    margin-bottom: 15px;
 }
 
 #foto-top{
