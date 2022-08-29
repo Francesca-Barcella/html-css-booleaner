@@ -9,5 +9,23 @@ header{
 }
 
 #logo{
-    height: 100px;
+    height: 80px;
+}
+
+/* section title */
+
+h1{
+    font-size: 30px;
+}
+
+#author, #data-article{
+    color: #989898;
+}
+
+#author-name{
+    color: #4EA0FF;
+}
+
+#data-article{
+    font-size: 12px;
 }
