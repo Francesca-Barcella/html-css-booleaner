@@ -39,11 +39,11 @@ h1{
 }
 
 /* section article */
-#article>p, #article>ul{
+.article>p, .article>ul{
     font-size: 20px;
 }
 
-#article{
+.article{
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -87,4 +87,3 @@ h1{
     width: 50%;
     display: inline-block
 }
-
