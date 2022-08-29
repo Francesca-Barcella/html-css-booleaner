@@ -32,5 +32,15 @@ h1{
 
 /* section starting-photo */
 #starting-photo{
-    margin-top: 10px;;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+/* section article */
+#article>p, #article>ul{
+    font-size: 20px;
+}
+
+.evidenziato{
+    background-color: yellow;
 }
