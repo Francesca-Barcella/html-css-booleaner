@@ -1,4 +1,9 @@
-header{
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header, footer{
     background-color: #4EA0FF;
 }
 
@@ -12,6 +17,11 @@ header{
     height: 80px;
     margin-top: 100px;
     margin-left: 10px;
+}
+
+main{
+    width: 70%;
+    margin: auto;
 }
 
 /* section title */
@@ -88,7 +98,17 @@ h1{
     display: inline-block
 }
 
+hr{
+    border: 2px solid blue;
+}
+
 /* section interest*/
+
+#interest{
+    width: 70%;
+    margin: auto;
+}
+
 #interest>h3{
     color: #989898;
 }
@@ -109,4 +129,18 @@ h1{
 
 #foto-bottom{
     background-image: url(../img/graph.jpg);
+}
+
+/* footer*/
+footer{
+    /* height: 100px; */
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+footer>hr{
+    width: 50%;
+    border: 1px solid blue;
 }
