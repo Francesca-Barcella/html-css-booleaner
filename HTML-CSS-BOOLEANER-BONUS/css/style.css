@@ -1,4 +1,5 @@
 *{
+    margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
@@ -28,6 +29,7 @@ main{
 
 h1{
     font-size: 30px;
+    margin-top: 15px;
 }
 
 #author, #data-article{
@@ -44,18 +46,20 @@ h1{
 
 /* section starting-photo */
 #starting-photo{
-    margin-top: 10px;
+    margin-top: 15px;
     font-size: 10px;
 }
 
 /* section article */
 .article>p, .article>ul{
     font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .article{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .evidenziato{
@@ -74,6 +78,10 @@ h1{
 
 #title-dx{
     width: 50%;
+}
+
+ul{
+    margin-left: 0px;
 }
 
 #title-sx, #title-center, #title-dx{
@@ -100,6 +108,7 @@ h1{
 
 hr{
     border: 2px solid blue;
+    margin-top: 30px;
 }
 
 /* section interest*/
@@ -107,6 +116,7 @@ hr{
 #interest{
     width: 70%;
     margin: auto;
+    margin-top: 30px;
 }
 
 #title-interest>h3{
@@ -122,8 +132,9 @@ hr{
     background-size: cover;
     width: 310px;
     height: 210px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     position: relative;
+    display: inline-block;
 }
 
 #foto-top{
@@ -138,14 +149,15 @@ hr{
     position: absolute;
     top: 10px;
     left: 10px;
+    font-size: 15px;
 }
 
 /* footer*/
 footer{
     /* height: 100px; */
     margin: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     text-align: center;
 }
 
